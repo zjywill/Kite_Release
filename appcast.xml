@@ -4,11 +4,11 @@
         <title>Kite</title>
         <item>
             <title>0.1.0</title>
-            <pubDate>Fri, 28 Aug 2026 15:39:56 +0800</pubDate>
-            <sparkle:version>100</sparkle:version>
+            <pubDate>Fri, 28 Aug 2026 17:48:30 +0800</pubDate>
+            <sparkle:version>101</sparkle:version>
             <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/zjywill/Kite_Release/releases/download/v0.1.0-beta.4/Kite-0.1.0-beta.4.zip" length="87529230" type="application/octet-stream" sparkle:edSignature="3jDjp7iEm7I/ow8Qhrwocz4WAvEZd1aZKjheKh0EP7H1cqh2us8w6ln1Rp6Exu1QEUOuE7ajFdObz1I1rXXDBQ=="/>
+            <enclosure url="https://github.com/zjywill/Kite_Release/releases/download/v0.1.0-beta.5/Kite-0.1.0-beta.5.zip" length="87548294" type="application/octet-stream" sparkle:edSignature="dZlaoknYPlrO0SW0V6lYUme7tSyPy1iCnPc0dHsGoLxJG+LPJZrFyZifJeT5PEh8xf5xeBEtYTJ44TUIZ3RfDQ=="/>
         </item>
     </channel>
 </rss>
