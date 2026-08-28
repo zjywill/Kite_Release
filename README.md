@@ -84,8 +84,9 @@ xcrun stapler validate /Applications/Kite.app
 spctl --assess --type execute --verbose=4 /Applications/Kite.app
 ```
 
-You should see `Authority=Developer ID Application: Junyi Zhang (NGM7GX8DGB)`,
-`flags=0x10000(runtime)`, and `source=Notarized Developer ID`.
+The output should show an `Authority=Developer ID Application: ...` line,
+`flags=0x10000(runtime)`, and `source=Notarized Developer ID`. If any of the
+three commands fails, the build has been tampered with — do not run it.
 
 ## A word on trust
 
@@ -93,7 +94,3 @@ A tool that decrypts your HTTPS traffic is a tool that can read everything you
 do online. Install its root CA only if you understand what that means, keep the
 decryption host list as short as the job requires, and remove the certificate
 when you are done debugging.
-
-## License
-
-AGPL-3.0.
